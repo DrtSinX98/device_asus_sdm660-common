@@ -452,6 +452,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock \
     thermal.sdm660
 
+# Touch HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.X00T
+
 # Trust
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
