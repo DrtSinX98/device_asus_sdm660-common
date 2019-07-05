@@ -272,8 +272,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.safailnet.rc
-
+    init.safailnet.rc \
+    init.zenparts.rc
 
 # IPv6
 PRODUCT_PACKAGES += \
@@ -492,6 +492,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# ZenParts
+PRODUCT_PACKAGES += \
+    ZenParts
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
