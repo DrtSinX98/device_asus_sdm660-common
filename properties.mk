@@ -144,6 +144,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.disableDebugLogs=1 \
     persist.vendor.ims.disableIMSLogs=1
 
+# IWLAN
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.data.iwlan.enable=true \
+    ro.telephony.iwlan_operation_mode=legacy
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
@@ -178,6 +183,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.custom_ecc=1 \
+    persist.vendor.radio.data_con_rprt=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     ro.telephony.default_network=22,22 \
