@@ -548,10 +548,16 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc447949
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
 
-# Widevine - from jasmine
+# Widevine - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
+vendor/lib64/libcpion.so|87465372180b9df51434f7f51faf033c2da914a5
+vendor/lib64/libcppf.so|58f4deec43f2271919da9f69aa2753ee707735a0
+vendor/lib64/libhdcp1prov.so|25aa30d053c9d520526e15434ce80a2635a8a40c
+vendor/lib64/libhdcp2p2prov.so|de8347cbb242a1e069b42577ce810edad04d2afe
+vendor/lib64/libhdcpsrm.so|a9e378bfe4a66cfc670f35d70d0e182956a1e87b
+vendor/lib64/liboemcrypto.so|db41cb588065ad0d92ac2a59db409420c021413b
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|f206aecdd6843795f6448bb6d44d2244b3e48815
-vendor/lib64/libwvhidl.so|ac620214d2ef4d715c373cf56618bb5e63c67b46
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
+vendor/lib64/libwvhidl.so|79641121417371f82af64fdec4795eb9cec1e12f
 
 # WiFi Display - from jasmine
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
